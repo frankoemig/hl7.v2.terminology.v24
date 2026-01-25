@@ -1,0 +1,142 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "assigningAuthority",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-assigningAuthority.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/assigningAuthority</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.4"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0363"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/assigningAuthority",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.221"
+  } ],
+  "version": "1.0.0",
+  "name": "AssigningAuthority",
+  "title": "Assigning Authority (2.4 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of example values ONLY for Assigning Authority, and only pubished in HL7 Version 2.4; coded values for fields that are intended to specify Assinging Authority are intended to be locally user defined codes.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "AUSDVA",
+    "display": "Australia - Dept. of Veterans Affairs",
+    "definition": "Australia - Dept. of Veterans Affairs"
+  }, {
+    "code": "AUSHIC",
+    "display": "Australia - Health Insurance Commission",
+    "definition": "Australia - Health Insurance Commission"
+  }, {
+    "code": "CANAB",
+    "display": "Canada - Alberta",
+    "definition": "Canada - Alberta"
+  }, {
+    "code": "CANBC",
+    "display": "Canada - British Columbia",
+    "definition": "Canada - British Columbia"
+  }, {
+    "code": "CANMB",
+    "display": "Canada - Manitoba",
+    "definition": "Canada - Manitoba"
+  }, {
+    "code": "CANNB",
+    "display": "Canada - New Brunswick",
+    "definition": "Canada - New Brunswick"
+  }, {
+    "code": "CANNF",
+    "display": "Canada - Newfoundland",
+    "definition": "Canada - Newfoundland"
+  }, {
+    "code": "CANNS",
+    "display": "Canada - Nova Scotia",
+    "definition": "Canada - Nova Scotia"
+  }, {
+    "code": "CANNT",
+    "display": "Canada - Northwest Territories",
+    "definition": "Canada - Northwest Territories"
+  }, {
+    "code": "CANNU",
+    "display": "Canada - Nanavut",
+    "definition": "Canada - Nanavut"
+  }, {
+    "code": "CANON",
+    "display": "Canada - Ontario",
+    "definition": "Canada - Ontario"
+  }, {
+    "code": "CANPE",
+    "display": "Canada - Prince Edward Island",
+    "definition": "Canada - Prince Edward Island"
+  }, {
+    "code": "CANQC",
+    "display": "Canada - Quebec",
+    "definition": "Canada - Quebec"
+  }, {
+    "code": "CANSK",
+    "display": "Canada - Saskatchewan",
+    "definition": "Canada - Saskatchewan"
+  }, {
+    "code": "CANYT",
+    "display": "Canada - Yukon Territories",
+    "definition": "Canada - Yukon Territories"
+  }, {
+    "code": "NLVWS",
+    "display": "NL - Ministerie van Volksgezondheid, Welzijn en Sport",
+    "definition": "NL - Ministerie van Volksgezondheid, Welzijn en Sport"
+  }, {
+    "code": "USCDC",
+    "display": "US Center for Disease Control",
+    "definition": "US Center for Disease Control"
+  }, {
+    "code": "USHCFA",
+    "display": "US Healthcare Finance Authority",
+    "definition": "US Healthcare Finance Authority"
+  }, {
+    "code": "USSSA",
+    "display": "US Social Security Administration",
+    "definition": "US Social Security Administration"
+  } ]
+}

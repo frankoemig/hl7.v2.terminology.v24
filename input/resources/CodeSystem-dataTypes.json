@@ -1,0 +1,512 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "dataTypes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-dataTypes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/dataTypes</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.4"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0440"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/dataTypes",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.280"
+  } ],
+  "version": "1.0.0",
+  "name": "DataTypes",
+  "title": "Data Types (2.4 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying the format of the observation value in the Observation Result (OBX).   Used in HL7 Version 2.x messaging in the OBX, OM1, OM3 and OMC segments.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "AD",
+    "display": "Address",
+    "definition": "Address",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CD",
+    "display": "Channel definition",
+    "definition": "Channel definition",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CE",
+    "display": "Coded element",
+    "definition": "Coded element",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CF",
+    "display": "Coded element with formatted values",
+    "definition": "Coded element with formatted values",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CK",
+    "display": "Composite ID with check digit",
+    "definition": "Composite ID with check digit",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CM",
+    "display": "Composite",
+    "definition": "Composite",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2020-09-23"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CN",
+    "display": "Composite ID number and name",
+    "definition": "Composite ID number and name",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CNE",
+    "display": "Coded with no exceptions",
+    "definition": "Coded with no exceptions",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CP",
+    "display": "Composite price",
+    "definition": "Composite price",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CQ",
+    "display": "Composite quantity with units",
+    "definition": "Composite quantity with units",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CWE",
+    "display": "Coded with exceptions",
+    "definition": "Coded with exceptions",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CX",
+    "display": "Extended composite ID with check digit",
+    "definition": "Extended composite ID with check digit",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "DLN",
+    "display": "Driver's license number",
+    "definition": "Driver's license number",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "DR",
+    "display": "Date/time range",
+    "definition": "Date/time range",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "DT",
+    "display": "Date",
+    "definition": "Date",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ED",
+    "display": "Encapsulated data",
+    "definition": "Encapsulated data",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "EI",
+    "display": "Entity identifier",
+    "definition": "Entity identifier",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "FC",
+    "display": "Financial class",
+    "definition": "Financial class",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "FN",
+    "display": "Family name",
+    "definition": "Family name",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "FT",
+    "display": "Formatted text",
+    "definition": "Formatted text",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "HD",
+    "display": "Hierarchic designator",
+    "definition": "Hierarchic designator",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ID",
+    "display": "Coded values for HL7 tables",
+    "definition": "Coded values for HL7 tables",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "IS",
+    "display": "Coded value for user-defined tables",
+    "definition": "Coded value for user-defined tables",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "JCC",
+    "display": "Job code/class",
+    "definition": "Job code/class",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MA",
+    "display": "Multiplexed array",
+    "definition": "Multiplexed array",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MO",
+    "display": "Money",
+    "definition": "Money",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "NA",
+    "display": "Numeric array",
+    "definition": "Numeric array",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "NM",
+    "display": "Numeric",
+    "definition": "Numeric",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "PL",
+    "display": "Person location",
+    "definition": "Person location",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "PN",
+    "display": "Person name",
+    "definition": "Person name",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "PPN",
+    "display": "Performing person time stamp",
+    "definition": "Performing person time stamp",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "PT",
+    "display": "Processing type",
+    "definition": "Processing type",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QIP",
+    "display": "Query input parameter list",
+    "definition": "Query input parameter list",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QSC",
+    "display": "Query selection criteria",
+    "definition": "Query selection criteria",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "RCD",
+    "display": "Row column definition",
+    "definition": "Row column definition",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "RI",
+    "display": "Repeat interval",
+    "definition": "Repeat interval",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "RP",
+    "display": "Reference pointer",
+    "definition": "Reference pointer",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SAD",
+    "display": "Street Address",
+    "definition": "Street Address",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SCV",
+    "display": "Scheduling class value pair",
+    "definition": "Scheduling class value pair",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SI",
+    "display": "Sequence ID",
+    "definition": "Sequence ID",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SN",
+    "display": "Structured numeric",
+    "definition": "Structured numeric",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SRT",
+    "display": "Sort order",
+    "definition": "Sort order",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ST",
+    "display": "String",
+    "definition": "String",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "TM",
+    "display": "Time",
+    "definition": "Time",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "TN",
+    "display": "Telephone number",
+    "definition": "Telephone number",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "TQ",
+    "display": "Timing/quantity",
+    "definition": "Timing/quantity",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "TS",
+    "display": "Time stamp",
+    "definition": "Time stamp",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "TX",
+    "display": "Text data",
+    "definition": "Text data",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "VH",
+    "display": "Visiting hours",
+    "definition": "Visiting hours",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "VID",
+    "display": "Version identifier",
+    "definition": "Version identifier",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "XAD",
+    "display": "Extended address",
+    "definition": "Extended address",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "XCN",
+    "display": "Extended composite ID number and name",
+    "definition": "Extended composite ID number and name",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "XON",
+    "display": "Extended composite name and ID number for organizations",
+    "definition": "Extended composite name and ID number for organizations",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "XPN",
+    "display": "Extended person name",
+    "definition": "Extended person name",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "XTN",
+    "display": "Extended telecommunications number",
+    "definition": "Extended telecommunications number",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  } ]
+}
