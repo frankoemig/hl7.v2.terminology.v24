@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSoccurrenceSpan",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.228"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSoccurrenceSpan",
+  "title": "Occurrence Span (2.4 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Concepts drawn from the National Uniform Billing Committee (NUBC) code that identifies an event that relates to the payment of a claim.  Used in Version 2 messaging in the Occurrence Span Code and Date (OSP) value.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/nubc-OccurrenceSpan-cs",
+      "version": "0"
+    } ]
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nubc-OccurrenceCode-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-nubc-OccurrenceCode-cs.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/nubc-OccurrenceCode-cs</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.4"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0350"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/nubc-OccurrenceCode-cs",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.6.301.7"
+  } ],
+  "version": "1.0.0",
+  "name": "Nubc-OccurrenceCode-cs",
+  "title": "Occurrence Code (2.4 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "National Uniform Billing Committee (NUBC) UB-04 Data Specifications Manual, UB form locator 31 - 34, Occurrence Codes and Amounts - code and associated date defining a significant event relating to the bill that may affect payer processing the claim. The UB-04 Data Specifications Manual with the codes is available by subscription from NUBC at http://www.nubc.org/become.html.  Used in HL7 Version 2.x messaging in the OCD segment. Updated by NUBC annually; see the coding instructions for more detail.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "01",
+    "display": "Auto accident",
+    "definition": "Auto accident",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "02",
+    "display": "No fault insurance involved-including auto accident/other",
+    "definition": "No fault insurance involved-including auto accident/other",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "03",
+    "display": "Accident/tort liability",
+    "definition": "Accident/tort liability",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "04",
+    "display": "Accident/employment related",
+    "definition": "Accident/employment related",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "05",
+    "display": "Other accident",
+    "definition": "Other accident",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "06",
+    "display": "Crime victim",
+    "definition": "Crime victim",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "09",
+    "display": "Start of infertility treatment cycle",
+    "definition": "Start of infertility treatment cycle",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "10",
+    "display": "Last menstrual period",
+    "definition": "Last menstrual period",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "11",
+    "display": "Onset of symptoms/illness",
+    "definition": "Onset of symptoms/illness",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "12",
+    "display": "Date of onset for a chronically dependent individual",
+    "definition": "Date of onset for a chronically dependent individual",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "17",
+    "display": "Date outpatient occupational therapy plan established or last reviewed",
+    "definition": "Date outpatient occupational therapy plan established or last reviewed",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "18",
+    "display": "Date of retirement patient/beneficiary",
+    "definition": "Date of retirement patient/beneficiary",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "19",
+    "display": "Date of retirement spouse",
+    "definition": "Date of retirement spouse",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "20",
+    "display": "Guarantee of payment began",
+    "definition": "Guarantee of payment began",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "21",
+    "display": "UR notice received",
+    "definition": "UR notice received",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "22",
+    "display": "Date active care ended",
+    "definition": "Date active care ended",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "24",
+    "display": "Date insurance denied",
+    "definition": "Date insurance denied",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "25",
+    "display": "Date benefits terminated by primary payor",
+    "definition": "Date benefits terminated by primary payor",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "26",
+    "display": "Date SNF bed available",
+    "definition": "Date SNF bed available",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "27",
+    "display": "Date home health plan established",
+    "definition": "Date home health plan established",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "28",
+    "display": "Spouse's date of birth",
+    "definition": "Spouse's date of birth",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "29",
+    "display": "Date outpatient physical therapy plan established or last reviewed",
+    "definition": "Date outpatient physical therapy plan established or last reviewed",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "30",
+    "display": "Date outpatient speech pathology plan established or last reviewed",
+    "definition": "Date outpatient speech pathology plan established or last reviewed",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "31",
+    "display": "Date beneficiary notified of intent to bill (accommodations)",
+    "definition": "Date beneficiary notified of intent to bill (accommodations)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "32",
+    "display": "Date beneficiary notified of intent to bill (procedures or treatments)",
+    "definition": "Date beneficiary notified of intent to bill (procedures or treatments)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "33",
+    "display": "First day of the Medicare coordination period for ESRD beneficiaries covered by EGHP",
+    "definition": "First day of the Medicare coordination period for ESRD beneficiaries covered by EGHP",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "34",
+    "display": "Date of election of extended care facilities",
+    "definition": "Date of election of extended care facilities",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "35",
+    "display": "Date treatment started for P.T.",
+    "definition": "Date treatment started for P.T.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "36",
+    "display": "Date of inpatient hospital discharge for covered transplant patients",
+    "definition": "Date of inpatient hospital discharge for covered transplant patients",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "37",
+    "display": "Date of inpatient hospital discharge for non-covered transplant patient",
+    "definition": "Date of inpatient hospital discharge for non-covered transplant patient",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "40",
+    "display": "Scheduled date of admission",
+    "definition": "Scheduled date of admission",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "41",
+    "display": "Date of first test for pre-admission testing",
+    "definition": "Date of first test for pre-admission testing",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "42",
+    "display": "Date of discharge",
+    "definition": "Date of discharge",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "43",
+    "display": "Scheduled date of canceled surgery",
+    "definition": "Scheduled date of canceled surgery",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "44",
+    "display": "Date treatment started for O.T.",
+    "definition": "Date treatment started for O.T.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "45",
+    "display": "Date treatment started for S.T.",
+    "definition": "Date treatment started for S.T.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "46",
+    "display": "Date treatment started for cardiac rehab.",
+    "definition": "Date treatment started for cardiac rehab.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "47",
+    "display": "Payer codes",
+    "definition": "Payer codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "48",
+    "display": "Payer codes",
+    "definition": "Payer codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "49",
+    "display": "Payer codes",
+    "definition": "Payer codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "50",
+    "display": "Date lien released",
+    "definition": "Date lien released",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "51",
+    "display": "Date treatment started for psychiatric care",
+    "definition": "Date treatment started for psychiatric care",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "70",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "71",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "72",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "73",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "74",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "75",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "76",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "77",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "78",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "79",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "80",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "81",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "82",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "83",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "84",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "85",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "86",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "87",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "88",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "89",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "90",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "91",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "92",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "93",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "94",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "95",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "96",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "97",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "98",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "99",
+    "display": "Occurrence span codes and dates",
+    "definition": "Occurrence span codes and dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "A1",
+    "display": "Birthdate - insured A",
+    "definition": "Birthdate - insured A",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "A2",
+    "display": "Effective date - insured A policy",
+    "definition": "Effective date - insured A policy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "A3",
+    "display": "Benefits exhausted payer A",
+    "definition": "Benefits exhausted payer A",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}

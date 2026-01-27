@@ -1,0 +1,578 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "mimeBase64EncodingCharacters",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-mimeBase64EncodingCharacters.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/mimeBase64EncodingCharacters</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.4"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0290"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/mimeBase64EncodingCharacters",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.180"
+  } ],
+  "version": "1.0.0",
+  "name": "MimeBase64EncodingCharacters",
+  "title": "MIME base64 encoding Characters (2.4 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying the characters used in the MIME Base 64 encoding mechanism.  These are for reference only, as they are not carried as explicit code values in any HL7 coded field.  This table was published only in releases 2.3, 2.3.1, and 2.4 of the Standard, and was removed thereafter.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "0",
+    "display": "A",
+    "definition": "A",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "1",
+    "display": "B",
+    "definition": "B",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "10",
+    "display": "K",
+    "definition": "K",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "11",
+    "display": "L",
+    "definition": "L",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "12",
+    "display": "M",
+    "definition": "M",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "13",
+    "display": "N",
+    "definition": "N",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "14",
+    "display": "O",
+    "definition": "O",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "15",
+    "display": "P",
+    "definition": "P",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "16",
+    "display": "Q",
+    "definition": "Q",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "17",
+    "display": "R",
+    "definition": "R",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "18",
+    "display": "S",
+    "definition": "S",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "19",
+    "display": "T",
+    "definition": "T",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "2",
+    "display": "C",
+    "definition": "C",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "20",
+    "display": "U",
+    "definition": "U",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "21",
+    "display": "V",
+    "definition": "V",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "22",
+    "display": "W",
+    "definition": "W",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "23",
+    "display": "X",
+    "definition": "X",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "24",
+    "display": "Y",
+    "definition": "Y",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "25",
+    "display": "Z",
+    "definition": "Z",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "26",
+    "display": "a",
+    "definition": "a",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "27",
+    "display": "b",
+    "definition": "b",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "28",
+    "display": "c",
+    "definition": "c",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "29",
+    "display": "d",
+    "definition": "d",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "3",
+    "display": "D",
+    "definition": "D",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "30",
+    "display": "e",
+    "definition": "e",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "31",
+    "display": "f",
+    "definition": "f",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "32",
+    "display": "g",
+    "definition": "g",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "33",
+    "display": "h",
+    "definition": "h",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "34",
+    "display": "I",
+    "definition": "I",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "35",
+    "display": "j",
+    "definition": "j",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "36",
+    "display": "k",
+    "definition": "k",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "37",
+    "display": "l",
+    "definition": "l",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "38",
+    "display": "m",
+    "definition": "m",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "39",
+    "display": "n",
+    "definition": "n",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "4",
+    "display": "E",
+    "definition": "E",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "40",
+    "display": "o",
+    "definition": "o",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "41",
+    "display": "p",
+    "definition": "p",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "42",
+    "display": "q",
+    "definition": "q",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "43",
+    "display": "r",
+    "definition": "r",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "44",
+    "display": "s",
+    "definition": "s",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "45",
+    "display": "t",
+    "definition": "t",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "46",
+    "display": "u",
+    "definition": "u",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "47",
+    "display": "v",
+    "definition": "v",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "48",
+    "display": "w",
+    "definition": "w",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "49",
+    "display": "x",
+    "definition": "x",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "5",
+    "display": "F",
+    "definition": "F",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "50",
+    "display": "y",
+    "definition": "y",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "51",
+    "display": "z",
+    "definition": "z",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "52",
+    "display": "0",
+    "definition": "0",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "53",
+    "display": "1",
+    "definition": "1",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "54",
+    "display": "2",
+    "definition": "2",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "55",
+    "display": "3",
+    "definition": "3",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "56",
+    "display": "4",
+    "definition": "4",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "57",
+    "display": "5",
+    "definition": "5",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "58",
+    "display": "6",
+    "definition": "6",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "59",
+    "display": "7",
+    "definition": "7",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "6",
+    "display": "G",
+    "definition": "G",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "60",
+    "display": "8",
+    "definition": "8",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "61",
+    "display": "9",
+    "definition": "9",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "62",
+    "display": "+",
+    "definition": "+",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "63",
+    "display": "/",
+    "definition": "/",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "7",
+    "display": "H",
+    "definition": "H",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "8",
+    "display": "I",
+    "definition": "I",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "9",
+    "display": "J",
+    "definition": "J",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}

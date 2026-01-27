@@ -1,0 +1,106 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "approvalIndicator",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-approvalIndicator.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/approvalIndicator</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.4"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0349"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/approvalIndicator",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.447"
+  } ],
+  "version": "1.0.0",
+  "name": "ApprovalIndicator",
+  "title": "PSRO/UR Approval Indicator (2.4 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts for PSRO/UR approval indicators, as used in the UB82 field 87.  This field is defined by HCFA (in the US) or other regulatory agencies.  Note that this form type is no longer used in the US, and the  codes listed (as examples) are not an exhaustive or current list; refer to a UB84 specification for additional information.  Used in HL7 Version 2 messaging in UB82 segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "1",
+    "display": "Approved by the PSRO/UR as billed",
+    "definition": "Approved by the PSRO/UR as billed",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "2",
+    "display": "Automatic approval as billed based on focused review",
+    "definition": "Automatic approval as billed based on focused review",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "3",
+    "display": "Partial approval",
+    "definition": "Partial approval",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "4",
+    "display": "Admission denied",
+    "definition": "Admission denied",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "5",
+    "display": "Postpayment review applicable",
+    "definition": "Postpayment review applicable",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}

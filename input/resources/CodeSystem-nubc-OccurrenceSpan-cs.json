@@ -1,0 +1,154 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nubc-OccurrenceSpan-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-nubc-OccurrenceSpan-cs.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/nubc-OccurrenceSpan-cs</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.4"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0351"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/nubc-OccurrenceSpan-cs",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.6.301.8"
+  } ],
+  "version": "1.0.0",
+  "name": "Nubc-OccurrenceSpan-cs",
+  "title": "Occurrence Span (2.4 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts  specifying a National Uniform Billing Committee (NUBC) code that identifies an event that relates to the payment of a claim.  The UB-04 Data Specifications Manual with the codes is available by subscription from NUBC at http://www.nubc.org/become.html.  Used in HL7 Version 2.x messaging in the Occurrence Span Code and Date (OSP) value. Updated by NUBC annually; see the coding instructions for more detail.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "70",
+    "display": "Qualifying stay dates for SNF",
+    "definition": "Qualifying stay dates for SNF",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "71",
+    "display": "Prior stay dates",
+    "definition": "Prior stay dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "72",
+    "display": "First/last visit",
+    "definition": "First/last visit",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "73",
+    "display": "Benefit eligibility period",
+    "definition": "Benefit eligibility period",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "74",
+    "display": "Non-covered level of care",
+    "definition": "Non-covered level of care",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "75",
+    "display": "SNF level of care",
+    "definition": "SNF level of care",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "76",
+    "display": "Patient liability",
+    "definition": "Patient liability",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "77",
+    "display": "Provider liability period",
+    "definition": "Provider liability period",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "78",
+    "display": "SNF prior stay dates",
+    "definition": "SNF prior stay dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "79",
+    "display": "Payer code",
+    "definition": "Payer code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "M0",
+    "display": "PSRO/UR approved stay dates",
+    "definition": "PSRO/UR approved stay dates",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}

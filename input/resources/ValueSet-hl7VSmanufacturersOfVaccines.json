@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSmanufacturersOfVaccines",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.139"
+  } ],
+  "version": "1.1.0",
+  "name": "Hl7VSmanufacturersOfVaccines",
+  "title": "Manufacturers of Vaccines (code=MVX) (2.4 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-published value Set of codes that specify the organization that manufactures a vaccine.   Superceded by 2.16.840.1.114222.4.11.826, published by the US Centers for Disease Control and Prevention (CDC).",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/manufacturersOfVaccinesHL7",
+      "version": "0"
+    } ]
+  }
+}
